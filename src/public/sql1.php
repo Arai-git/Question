@@ -9,13 +9,13 @@ try{
   $stmt->execute();
   // $incomes = $pdo->query("SELECT * FROM incomes;");
   // echo $incomes;
-} catch (PDOException $e) {
-  echo 'Error:'.$e->getMessage();
-}
-$all = $stmt->fetchAll();
-echo '<pre>';
-var_dump($all);
-echo '<pre>';
+  } catch (PDOException $e) {
+    echo 'Error:'.$e->getMessage();
+  }
+  $all = $stmt->fetchAll();
+  echo '<pre>';
+  var_dump($all);
+  echo '<pre>';
 
 try{
   $DB_USERNAME = 'php';
@@ -26,13 +26,13 @@ try{
   $stmt->execute();
   // $incomes = $pdo->query("SELECT * FROM incomes;");
   // echo $incomes;
-} catch (PDOException $e) {
-  echo 'Error:'.$e->getMessage();
-}
-$all = $stmt->fetchAll();
-echo '<pre>';
-var_dump($all);
-echo '<pre>';
+  } catch (PDOException $e) {
+    echo 'Error:'.$e->getMessage();
+  }
+  $all = $stmt->fetchAll();
+  echo '<pre>';
+  var_dump($all);
+  echo '<pre>';
 
 try{
   $DB_USERNAME = 'php';
@@ -43,10 +43,10 @@ try{
   $stmt->execute();
   // $incomes = $pdo->query("SELECT * FROM incomes;");
   // echo $incomes;
-} catch (PDOException $e) {
-  echo 'Error:'.$e->getMessage();
-}
-$all = $stmt->fetchAll();
-echo '<pre>';
-var_dump($all);
-echo '<pre>';
+  } catch (PDOException $e) {
+    echo 'Error:'.$e->getMessage();
+  }
+  $all = $stmt->fetchAll();
+  echo '<pre>';
+  var_dump($all);
+  echo '<pre>';
